@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Temperature Converter</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Temperature Converter</h1>
+    <div class="input-container">
+      <input type="number" id="temperatureInput" placeholder="Enter temperature" required>
+    </div>
+    <div class="convert-container">
+        <select id="unitFrom">
+            <option value="celsius">Celsius</option>
+            <option value="fahrenheit">Fahrenheit</option>
+            <option value="kelvin">Kelvin</option>
+        </select>
+        <div class="text">
+            Convert to
+        </div>
+      <select id="unitTo">
+        <option value="celsius">Celsius</option>
+        <option value="fahrenheit">Fahrenheit</option>
+        <option value="kelvin">Kelvin</option>
+      </select>
+    </div>
+      <div>
+        <button onclick="convertTemperature()">Convert</button>
+      </div>
+    <div id="resultContainer">
+      <p id="result">Output is shown here</p>
+    </div>
+  </div>
+  <footer>
+    &#169; 2024, Designed by -
+    <a href="https://www.linkedin.com/in/akash-kanar-6b5790292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+      Akash kanar
+    </a>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
+
