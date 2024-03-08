@@ -1,7 +1,7 @@
 # OIBSIP
 <h3>Project Name-</h3><h3>Temperature Converter:</h3><br>
-This is a simple and stylish temperature converter website designed for mobile view. Users can input a temperature in either Celsius, Fahrenheit, or Kelvin, and convert it to another unit using a dropdown menu. The UI includes input validation to ensure that the input is a number.
-<br>
+This is a simple and stylish temperature converter website designed for mobile view. Users can input a temperature in either Celsius, Fahrenheit, or Kelvin, and convert it to another unit using a dropdown menu. The UI includes input validation to ensure that the input is a number.<br>
+
 <b>Features:</b>
 1. Input field for temperature input with dropdown menu for selecting the unit (Celsius, Fahrenheit, Kelvin).
 2. Dropdown menu for selecting the conversion unit (Celsius, Fahrenheit, Kelvin).
